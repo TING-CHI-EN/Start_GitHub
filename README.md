@@ -56,3 +56,8 @@ $ git remote add origin 網址
 // 將本地端程式 push 到遠端檔案庫
 
 $ git push -u origin master
+ 
+參考網址
+
+https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
+https://hackmd.io/@ncrl-10/HkNA7sp0w 
