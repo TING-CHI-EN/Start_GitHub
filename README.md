@@ -8,11 +8,11 @@ $ git --version
  
 // 設定你的帳戶，讓 Git 知道這台電腦做的修改要連結到哪一個使用者（待會我們要在 Github 上註冊帳號，建議使用一致的帳號和電子信箱）
 
-$ git config --global user.name "<Your Name>"
+$ git config --global user.name "Your Name"
 
 // 設定電子郵件
 
-$ git config --global user.email "<your@gmail.com>"
+$ git config --global user.email "your@gmail.com"
 
 // 删除設定
 
@@ -43,7 +43,8 @@ $ git add 檔案
 $ git add.
  
 // 比較現在檔案和上次 commit 之間的差異，也就是說你做了哪些修改
-// 在git add之前用
+
+ // 在git add之前用
 
 $ git diff
  
