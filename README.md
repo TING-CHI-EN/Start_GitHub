@@ -64,9 +64,13 @@ $ git reset HARD
  
 $ git remote add origin 網址
  
-// 將本地端程式 push 到遠端檔案庫
+// 將本地端程式 push 到遠端檔案庫(第一次)
 
 $ git push -u origin master
+
+// 第二次以上
+
+$ git pull
  
 參考網址
 
