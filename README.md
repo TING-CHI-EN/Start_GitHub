@@ -43,6 +43,7 @@ $ git add 檔案
 $ git add.
  
 // 比較現在檔案和上次 commit 之間的差異，也就是說你做了哪些修改
+// 在git add之前用
 
 $ git diff
  
