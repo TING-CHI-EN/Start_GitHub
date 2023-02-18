@@ -24,7 +24,7 @@ $ git config  --global --unset user.name
  
 // 改變設定
 
-$ git config --global user.name EasonHuang-tw
+$ git config --global user.name name
 
 
 // 將專案資料夾建立成 git repository
@@ -110,7 +110,7 @@ $ git reset HARD
 $ ls -al ~/.ssh
 
 
-$ ssh-keygen -t rsa -C "bbingg587@gmail.com"
+$ ssh-keygen -t rsa -C "your@gmail.com"
 
 
 $ ssh-agent bash
