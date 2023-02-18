@@ -60,8 +60,6 @@ repository 與 stage 的檔案都會被還原到 HEAD，但 working directory �
 
 $ git reset HARD
  
-$ git config --global user.username <你的 github 使用者名稱>
- 
 // 本地端專案知道 origin 對應到遠端網址
  
 $ git remote add origin 網址
