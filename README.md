@@ -8,12 +8,25 @@ $ git --version
  
 // 設定你的帳戶，讓 Git 知道這台電腦做的修改要連結到哪一個使用者（待會我們要在 Github 上註冊帳號，建議使用一致的帳號和電子信箱）
 
+git config
+
 $ git config --global user.name "<Your Name>"
 
 // 設定電子郵件
 
 $ git config --global user.email "<your@gmail.com>"
 
+//删除設定
+
+$ git config  --global --unset user.name
+ 
+//改變設定
+
+$ git config --global user.name EasonHuang-tw
+ 
+//查詢已建立的設定
+
+git config --list
  
 // 將專案資料夾建立成 git repository
 
