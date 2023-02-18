@@ -100,9 +100,34 @@ repository 與 stage 的檔案都會被還原到 HEAD，但 working directory �
 
 $ git reset HARD
 
- 
+/* ======================================================= */
+// SSH key 產生的方法
+
+// 檢查是否有現存ssh key
+
+$ ls -al ~/.ssh
+
+
+$ ssh-keygen -t rsa -C "bbingg587@gmail.com"
+
+
+$ ssh-agent bash
+
+
+$ssh-add ~/.ssh/id_rsa
+
+
+// 驗證你有沒有綁定
+
+$ ssh -T git@github.com
+
+
+/* ======================================================= */ 
+
 參考網址
 
 https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
 
 https://hackmd.io/@ncrl-10/HkNA7sp0w 
+
+https://hackmd.io/@sysprog/gnu-linux-dev/https%3A%2F%2Fhackmd.io%2F%40sysprog%2Fgit-with-github
