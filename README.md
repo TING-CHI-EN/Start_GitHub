@@ -124,6 +124,18 @@ $ssh-add ~/.ssh/id_rsa
 $ ssh -T git@github.com
 
 
+
+// 生成requirements.txt
+
+pip freeze > requirements.txt
+
+
+// 使用requirements.txt安裝
+
+
+pip install -r requirements.txt
+
+
 /* ======================================================= */ 
 
 參考網址
