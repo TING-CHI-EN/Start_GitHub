@@ -99,6 +99,6 @@ $ ssh-agent bash
 $ssh-add ~/.ssh/id_rsa
 
 
-# 驗證你有沒有綁定
+// 驗證你有沒有綁定
 
 $ ssh -T git@github.com
