@@ -45,9 +45,19 @@ $ git remote add origin 網址
 $ git push -u origin master
 ### 第二次以上
 $ git push
-
 ### 從 GitHub 下載回來
 $ git pull
+# 查看 Git 記錄相關操作
+### 查看 Git config 設定
+$ git config --list
+### 查看目前工作目錄 (Working Directory) 中過去 Git commit 記錄
+$ git log # 列出詳細的作者、時間、commit 內容
+
+$ git reflog # 列出 commit 內容
+### 查看目前 Remote 連線位置
+$ git remote -v
+### git 版本切換
+$ git checkout <版本號> <省略 or 特定文件名稱>
 # 其他
 ### 生成requirements.txt
 pip freeze > requirements.txt
@@ -63,6 +73,8 @@ https://hackmd.io/@ncrl-10/HkNA7sp0w
 
 https://hackmd.io/@sysprog/gnu-linux-dev/https%3A%2F%2Fhackmd.io%2F%40sysprog%2Fgit-with-github
 
+https://www.maxlist.xyz/2018/11/02/git_tutorial/#3_git_commit_%E8%87%B3%E6%9C%AC%E5%9C%B0%E8%B3%87%E6%96%99%E5%BA%AB
+
 /* ===================================================== */
 # 未整理的地方
 
@@ -70,8 +82,6 @@ https://hackmd.io/@sysprog/gnu-linux-dev/https%3A%2F%2Fhackmd.io%2F%40sysprog%2F
 repository 與 stage 的檔案都會被還原到 HEAD，但 working directory 內的檔案不變
 
 $ git reset HARD
-
-/* ===================================================== */
 
 // SSH key 產生的方法
 
