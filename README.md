@@ -37,28 +37,18 @@ $ git diff
 # 第三步
 ### -m 為輸入 commit message，也就是說這個 commit 內做了哪些事情
 $ git commit -m "message"
-
-
-# 本地端專案知道 origin 對應到遠端網址
- 
+# 第四步
+### 本地端專案知道 origin 對應到遠端網址
 $ git remote add origin 網址
-
- 
-# 將本地端程式 push 到遠端檔案庫(第一次)
-
+### 將本地端程式 push 到遠端檔案庫(第一次)
 $ git push -u origin master
+### 第二次以上
+$ git push
 
-
-# 第二次以上
-
+### 從 GitHub 下載回來
 $ git pull
 
-
 /* ===================================================== */
-
-//查詢已建立的設定
-
-git config --list
 
 
 // 若檔案已經在 repository 內，則使用以下指令
@@ -90,14 +80,9 @@ $ ssh -T git@github.com
 
 
 
-// 生成requirements.txt
-
+# 生成requirements.txt
 pip freeze > requirements.txt
-
-
-// 使用requirements.txt安裝
-
-
+# 使用requirements.txt安裝
 pip install -r requirements.txt
 
 
