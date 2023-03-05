@@ -69,7 +69,7 @@ $ git --version
    $ git add.
    ```
    
-   * ## 檔案尚未加入過追蹤時使用，即可恢復到檔案尚未加入暫存區
+   * ## 從Github刪除文件
    ```bash
    $ git rm --cached hello.py
    ```
