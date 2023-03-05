@@ -28,18 +28,33 @@ $ git --version
    ```bash
    $ git init
    ```
+---   
+   #### * 取消git init
+   ```bash
+   $ rm -rf .git
+   ```
    
+   #### * 確認有沒有刪除，輸入
+   ```bach
+   $ git status
+   ```
+   
+   #### * 出現這個，代表成功
+   ```
+   fatal: Not a git repository (or any of the parent directories): .git
+   ```
+---   
    ## * 也可以指定資料夾
    ```bash
    $ git init directory
    ```
    
-   ### * 列出專案資料夾下的檔案和資料夾（-l 參數為列出詳細資料，-a 為列出隱藏資料夾）
+   ## * 列出專案資料夾下的檔案和資料夾（-l 參數為列出詳細資料，-a 為列出隱藏資料夾）
    ```bash
    $ ls -la
    ```
    
-   ### * 顯示目前工作環境狀態
+   ## * 顯示目前工作環境狀態
    ```bash
    $ git status
    ```
@@ -82,11 +97,11 @@ $ git commit -m "message"
    ```bash
    $ git push -u origin master
    ```
-   * ### 第二次以上
+   * ## 第二次以上
    ```bash
    $ git push
    ```
-   * ### 從 GitHub 下載回來
+   * ## 從 GitHub 下載回來
    ```bash
    $ git pull
    ```
