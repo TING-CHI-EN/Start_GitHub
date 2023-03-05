@@ -74,7 +74,7 @@ $ git --version
    $ git rm --cached hello.py
    ```
    
-   * ## 若是要放棄修改可以使用 
+   * ## 恢復檔案
    ```bash
    $ git checkout -- 檔案名稱
    ```
