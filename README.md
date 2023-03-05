@@ -15,7 +15,8 @@ $ git config --global user.email
 $ git config  --global --unset user.name
 
 $ git config  --global --unset user.email
-# 第二步 git add
+# 第二步 **git add**
+
 ### 將專案資料夾建立成 git repository
 $ git init
 ### 也可以指定資料夾
@@ -34,10 +35,10 @@ $ git rm --cached hello.py
 $ git checkout -- 檔案名稱
 ### 比較現在檔案和上次 commit 之間的差異，也就是說你做了哪些修改，在git add之前用
 $ git diff
-# 第三步 git commit
+# 第三步 **git commit**
 ### -m 為輸入 commit message，也就是說這個 commit 內做了哪些事情
 $ git commit -m "message"
-# 第四步 git push
+# 第四步 **git push**
 ### 本地端專案知道 origin 對應到遠端網址
 $ git remote add origin 網址
 ### 將本地端程式 push 到遠端檔案庫(第一次)
