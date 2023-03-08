@@ -165,6 +165,6 @@ $ cat ~/.ssh/id_rsa.pub
 $ clip < ~/.ssh/id_rsa.pub
 
 
-// 驗證你有沒有綁定
+# 驗證你有沒有綁定
 
 $ ssh -T git@github.com
