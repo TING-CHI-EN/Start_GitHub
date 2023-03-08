@@ -144,6 +144,8 @@ https://hackmd.io/@sysprog/gnu-linux-dev/https%3A%2F%2Fhackmd.io%2F%40sysprog%2F
 
 https://www.maxlist.xyz/2018/11/02/git_tutorial/#3_git_commit_%E8%87%B3%E6%9C%AC%E5%9C%B0%E8%B3%87%E6%96%99%E5%BA%AB
 
+https://ithelp.ithome.com.tw/articles/10240965
+
 /* ===================================================== */
 # 未整理的地方
 
@@ -152,20 +154,15 @@ repository 與 stage 的檔案都會被還原到 HEAD，但 working directory �
 
 $ git reset HARD
 
-// SSH key 產生的方法
-
-// 檢查是否有現存ssh key
-
+# SSH key 產生的方法
+### 檢查是否有現存ssh key
 $ ls -al ~/.ssh
-
-
-$ ssh-keygen -t rsa -C "your@gmail.com"
-
-
-$ ssh-agent bash
-
-
-$ssh-add ~/.ssh/id_rsa
+### 產生key
+$ ssh-keygen
+### 查看key
+$ cat ~/.ssh/id_rsa.pub
+### 複製key
+$ clip < ~/.ssh/id_rsa.pub
 
 
 // 驗證你有沒有綁定
